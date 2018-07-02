@@ -1,0 +1,11 @@
+steps:
+- name: gcr.io/cloud-builders/gcloud
+	args:
+	- beta
+	- functions
+	- deploy
+	- --trigger-htp
+	- --source=.
+	- --entry-point=f
+	- hello-gcf # Function name
+	
