@@ -1,2 +1,1 @@
-# hello
-Hello!
+# Marvin's First Google Cloud Function
