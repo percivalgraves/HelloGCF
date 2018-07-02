@@ -7,5 +7,5 @@ steps:
 	- --trigger-htp
 	- --source=.
 	- --entry-point=f
-	- hello-gcf # Function name
+	- marvinHelloWorld # Function name
 	
